@@ -1,0 +1,9 @@
+---
+
+- name: Install Slack
+  hosts: all
+  become: true
+  #ignore_errors: yes
+
+  roles:
+   - slack
